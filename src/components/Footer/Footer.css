@@ -1,0 +1,20 @@
+.bg-primary-color {
+  background-color: #4640de;
+}
+
+.bg-primary-color:hover {
+  background-color: #3c37b6 !important;
+  transition: 0.5s;
+}
+
+.bg-custom-color {
+  background-color: #202430;
+}
+
+.text-custom-color {
+  color: #d6ddeb;
+}
+
+.social-media-icon {
+  color: white;
+}

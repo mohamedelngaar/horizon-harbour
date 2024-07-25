@@ -1,0 +1,274 @@
+.d-flex {
+  display: flex;
+}
+
+.sidebar {
+  background-color: #202430;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2),
+    0px 6px 20px 0px rgba(0, 0, 0, 0.19);
+
+  color: white;
+  min-height: 100vh;
+  padding: 1rem;
+  transition: width 0.3s;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 16px;
+  padding-right: 60px;
+  padding-left: 20px;
+
+  position: relative;
+}
+
+.sidebar.closed {
+  width: 60px;
+}
+
+.sidebar.open {
+  width: 250px;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 1rem;
+  transition: margin-left 0.3s;
+}
+
+.content .btn {
+  margin-bottom: 1rem;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 0.5rem 0;
+
+  color: #7c8493 !important;
+}
+
+.nav-link .me-2 {
+  margin-right: 8px;
+}
+
+.nav-link:hover {
+  background-color: #e9ebfd;
+  color: #4640de !important;
+}
+
+.sidebar-collapse-btn {
+  background-color: #4640de !important;
+  border: none !important;
+
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.sidebar-hr {
+  background-color: #ccccf5 !important;
+  width: 100% !important;
+  height: 2px !important;
+}
+
+.sidebar-settings-text {
+  color: #7c8493;
+  margin-top: 14px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.first-sidebar-shape {
+  position: absolute;
+  right: 0;
+  bottom: 40px;
+}
+
+.second-sidebar-shape {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.dashboard-text {
+  font-weight: bold;
+}
+
+.dashboard-back-to-home-btn {
+  background-color: transparent;
+  color: #4640de;
+  border: 2px solid #ccccf5;
+  font-weight: bold;
+  padding: 12px 40px;
+  transition: 0.5s;
+}
+
+.dashboard-back-to-home-btn:hover {
+  background-color: #ccccf5;
+}
+
+.help-search-input {
+  border: 1px solid #d6ddeb;
+  padding: 10px 18px;
+  width: 100%;
+  background-color: transparent;
+  margin-top: 12px;
+  outline: none;
+}
+
+.help-get-started-text {
+  color: #4640de;
+  font-weight: bold;
+  margin-top: 22px;
+  text-decoration: none;
+  border-bottom: 1px solid #d6ddeb;
+  padding-bottom: 8px;
+}
+
+.main-additional-details-box {
+  border: 2px solid #d6ddeb;
+  padding: 22px;
+}
+
+.main-profile-container-details {
+  border: 2px solid #d6ddeb;
+  /* padding: 22px; */
+}
+
+.flex-container-of-profile {
+  gap: 140px;
+  background-color: white;
+}
+
+.fake-avatar {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  border: 6px solid white;
+
+  position: absolute;
+  top: -50px;
+  left: 80px;
+}
+
+.personal-info-container {
+  margin-left: 100px;
+  width: 100%;
+}
+
+.about-me-profile-container {
+  margin-top: 20px;
+  border: 2px solid #d6ddeb;
+  padding: 22px;
+}
+
+.total-jobs-applied-container {
+  border: 2px solid #d6ddeb;
+  padding: 22px;
+}
+
+.main-content-graph {
+  width: 38%;
+}
+
+.new-feature-text {
+  color: #4640de;
+}
+
+.main-new-feature-container {
+  background-color: #f6f6fd;
+  padding: 22px;
+}
+
+.pending-interview-tag {
+  color: #4640de !important;
+  font-weight: bold;
+}
+
+.create-meeting-btn {
+  background-color: #4640de;
+  color: white;
+  border: none;
+  padding: 8px 28px;
+  transition: 0.5s;
+}
+
+.create-meeting-btn:hover {
+  background-color: #7c8493;
+}
+
+.horizon-harbour-ai-text {
+  color: #4640de;
+  font-weight: bold;
+}
+
+.note-most-recent-apps-text {
+  color: #4640de;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.analyzed-ai-video-btn {
+  background-color: #4640de;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  transition: 0.5s;
+  width: 15%;
+}
+
+.analyzed-ai-video-btn:hover {
+  background-color: #6360c0;
+}
+
+.analyzed-ai-video-input {
+  border: 1px solid #c1c3c9;
+  padding: 10px 18px;
+  width: 80%;
+  background-color: transparent;
+  /* margin-top: 12px; */
+  outline: none;
+}
+
+.download-pdf-analyze-ai-btn {
+  background-color: #4640de;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  transition: 0.5s;
+}
+
+.download-pdf-analyze-ai-btn:hover {
+  background-color: #6360c0;
+}
+
+.read-more-analyze-ai-btn {
+  background-color: #4640de;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  transition: 0.5s;
+  margin-right: 12px;
+}
+
+.read-more-analyze-ai-btn:hover {
+  background-color: #6360c0;
+}
+
+.new-feature-text {
+  color: #4640de;
+}
+
+.emotion-note-ai-video-analyzed {
+  background-color: #f6f6fd;
+  padding: 22px;
+  font-size: 12px;
+
+  display: flex;
+  gap: 20px;
+}
+
+.heading-ai-analyzer-text {
+  color: #4640de;
+  font-weight: bold;
+}

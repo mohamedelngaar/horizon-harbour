@@ -1,0 +1,62 @@
+{
+  "name": "horizon-harbour",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.10",
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "@react-oauth/google": "^0.12.1",
+    "@shadcn/ui": "^0.0.4",
+    "@tanstack/react-query": "^5.29.2",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@videosdk.live/react-sdk": "^0.1.90",
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "jwt-decode": "^4.0.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.2",
+    "react-chat-engine-advanced": "^0.1.28",
+    "react-chat-engine-pretty": "^0.1.8",
+    "react-detect-offline": "^2.4.5",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-helmet-async": "^2.0.4",
+    "react-hook-form": "^7.51.2",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.0.1",
+    "react-player": "^2.16.0",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0.1",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

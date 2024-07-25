@@ -1,0 +1,115 @@
+.video-call-input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0px 18px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.video-call-create-meeting-btn {
+  background-color: #4640de;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  transition: 0.5s;
+  margin-right: 12px;
+}
+
+.video-call-create-meeting-btn:hover {
+  background-color: #6360c0;
+}
+
+.video-call-join-btn {
+  background-color: #4640de;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  transition: 0.5s;
+  margin-right: 12px;
+}
+
+.video-call-join-btn:hover {
+  background-color: #6360c0;
+}
+
+.main-join-screen-video-call-container {
+  /* display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; */
+  padding-top: 20rem;
+  height: 100vh;
+}
+
+.meeting-id-text {
+  color: #4640de;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.main-join-screen-video-call-container-joining {
+  padding-top: 8rem;
+  margin-bottom: 36rem;
+  height: 100vh;
+}
+
+.video-call-leave-btn {
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  transition: 0.5s;
+  margin-right: 12px;
+}
+
+.video-call-leave-btn:hover {
+  background-color: #c0525d !important;
+}
+
+.video-call-toggle-mic-btn {
+  background-color: #4640de !important;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  transition: 0.5s;
+  margin-right: 12px;
+}
+
+.video-call-toggle-mic-btn:hover {
+  background-color: #6360c0 !important;
+}
+
+.video-call-toggle-webcam {
+  background-color: #4640de !important;
+
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  transition: 0.5s;
+  margin-right: 12px;
+}
+
+.video-call-toggle-webcam:hover {
+  background-color: #6360c0 !important;
+}
+
+.video-player-container {
+  display: flex !important;
+  flex-direction: row !important;
+  background-color: red !important;
+}
+
+.video-call-horizon-heading-text {
+  color: #4640de;
+  font-weight: bold;
+  /* font-size: 24px; */
+  /* margin-bottom: 10px; */
+}
+
+.welcome-video-calling-text {
+  color: #4640de;
+  font-weight: bold;
+}

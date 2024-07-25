@@ -1,0 +1,46 @@
+.pagination-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.pagination-main-container ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  gap: 12px;
+}
+
+.pagination-main-container ul button {
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.pagination-main-container ul button:hover {
+  background-color: #f5f5f5;
+}
+
+.pagination-main-container ul button.active {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.pagination-main-container ul button:focus {
+  outline: none;
+}
+
+.pagination-main-container ul button:active {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.active-button {
+  background-color: var(--primary-color);
+  color: white;
+}

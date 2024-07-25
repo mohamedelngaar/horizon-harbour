@@ -1,0 +1,9 @@
+.jobs-counter {
+  color: #6a0dad;
+  background-color: rgb(241, 234, 244);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}

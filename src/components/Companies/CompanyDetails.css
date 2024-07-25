@@ -1,0 +1,74 @@
+.job-detail-main-container {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.job-detail ul {
+  text-align: left;
+  list-style: none;
+}
+
+.job-detail ul li {
+  padding: 20px;
+  border-top: 1px solid #eee;
+}
+.loading-spinner-container-job-details {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-message-job-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-style: italic;
+}
+
+.perks-card {
+  border: 1px solid #cccccc;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 1.5rem 2rem;
+  transition: box-shadow 0.3s ease-in-out;
+  position: relative;
+  cursor: pointer;
+  width: 240px;
+
+  &:hover {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  }
+}
+
+.perks-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+}
+
+.pointing-hand-right-icon {
+  font-size: 1rem;
+  color: var(--primary-color);
+}
+
+.companies-read-more-link {
+  color: var(--primary-color);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.company-glimpse-images {
+  width: 45%;
+}
+
+.jobs-counter {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.companyLogo-main-container {
+  width: 25%;
+}

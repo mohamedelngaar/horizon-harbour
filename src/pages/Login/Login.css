@@ -1,0 +1,31 @@
+.custom-login-section-padding {
+  padding: 50px;
+}
+
+.custom-bg-login-btn {
+  background-color: #4640de;
+}
+
+.stripe-line {
+  position: relative;
+}
+
+.stripe-line::before {
+  content: "";
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 22%;
+  border-bottom: 2px solid #e0e0e5;
+  z-index: -1;
+}
+
+.stripe-line::after {
+  content: "";
+  position: absolute;
+  top: 40%;
+  right: 0;
+  width: 22%;
+  border-bottom: 2px solid #e0e0e5;
+  z-index: -1;
+}

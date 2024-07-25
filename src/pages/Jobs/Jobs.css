@@ -1,0 +1,153 @@
+.search-btn-custom {
+  background-color: #4640de;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  &:hover {
+    background-color: #3a34c5;
+  }
+}
+
+.custom-section-padding {
+  padding: 6rem 0;
+}
+
+.custom-fs-jobs-title {
+  font-size: 3rem;
+}
+
+.dream-job-custom-color {
+  color: #26a4ff;
+}
+
+.custom-jobs-search {
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 1.5rem 3.5rem !important;
+  box-shadow: none !important;
+  outline: none !important;
+  font-size: 1rem !important;
+}
+
+.search-icon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.sort-select {
+  background-color: transparent !important;
+  font-weight: bold !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  outline: none !important;
+  font-size: 1rem !important;
+  color: #333333 !important;
+  cursor: pointer;
+}
+
+.job-card {
+  border: 1px solid #cccccc;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 1.5rem 2rem;
+  transition: box-shadow 0.3s ease-in-out;
+  position: relative;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  }
+}
+
+.tag {
+  background-color: #f5f5f5;
+  color: #333333;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.tag-green {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.tag-orange {
+  background-color: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeeba;
+}
+
+.tag-purple {
+  background-color: #d6d3f1;
+  color: #332c6e;
+  border: 1px solid #b9b5f5;
+}
+
+.tag-blue {
+  background-color: #cfe2ff;
+  color: #205296;
+  border: 1px solid #b8d4ff;
+}
+
+.vertical-divider {
+  border-right: 1px solid #ccc;
+  margin: 6px 8px 0px 8px;
+  height: 20px;
+}
+
+.apply-job-btn {
+  background-color: #4640de;
+  color: white !important;
+  padding: 0.5rem 2.5rem;
+  border: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #3a34c5;
+  }
+}
+
+.apply-job-btn-link {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.custom-jobs-container {
+  padding: 4rem 0;
+}
+
+.custom-checkbox-filter {
+  padding: 0.6rem !important;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1) !important;
+
+  accent-color: green !important;
+}
+
+.error-message-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-jobs-found-text {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+}

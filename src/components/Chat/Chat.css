@@ -1,0 +1,121 @@
+.background {
+  /* width: 100vw; */
+  height: 90vh;
+  /* background: linear-gradient(
+    75deg,
+    rgb(20, 23, 33) 0%,
+    rgb(20, 23, 33) 50%,
+    rgba(20, 23, 33, 0.8) 100%
+  ); */
+  /* Vertical center */
+  /* display: table-cell;
+  vertical-align: middle; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-card {
+  /* width: 50%; */
+  max-width: 500px;
+  /* padding: 0% 25% 0% 25%; */
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-title {
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: #000;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+.form-title-app {
+  font-size: 42px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: #4640de;
+  padding-bottom: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.form-subtitle {
+  font-size: 18px;
+
+  letter-spacing: 0.5px;
+  color: #afafaf;
+  padding-bottom: 24px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.form-note {
+  font-size: 10px;
+}
+
+.auth {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 12px;
+}
+
+.ce-chat-list {
+  background-color: red !important;
+}
+
+.auth-label {
+  position: absolute;
+  top: 8px;
+  left: 18px;
+  font-size: 11px;
+  color: rgb(175, 175, 175);
+  width: 100px;
+}
+
+.auth-input {
+  background-color: #3e404b;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 24px 18px 12px 18px;
+  /* width: calc(100% - 18px - 18px); */
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.auth-button {
+  width: 100%;
+  height: 53px;
+  color: white;
+  /* background-color: #fa541c; */
+  background-color: var(--primary-color);
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.44s ease;
+  -webkit-transition: all 0.44s ease;
+  -moz-transition: all 0.44s ease;
+}
+
+.auth-button:hover {
+  filter: brightness(145%);
+}
+
+.chat-wrapper {
+  height: 80vh;
+  width: 80%;
+  margin-left: 10%;
+  color: white;
+  background: rgb(43, 47, 60);
+}

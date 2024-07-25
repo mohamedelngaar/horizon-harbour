@@ -1,0 +1,40 @@
+.record-video-btn {
+  border: none;
+  padding: 10px 18px;
+  transition: background-color 0.3s ease;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.record-video-btn:hover {
+  opacity: 0.8;
+}
+
+.record-video-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.record-video-start-record-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.record-video-pause-record-btn {
+  background-color: #ffd700;
+  color: black;
+}
+
+.record-video-resume-record-btn {
+  background-color: #36a9e1;
+  color: white;
+}
+
+.record-video-download-record-btn {
+  background-color: #4640de;
+  color: white;
+}
+
+.record-video-download-record-btn:hover {
+  background-color: #6360c0 !important;
+}

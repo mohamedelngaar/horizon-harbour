@@ -1,0 +1,91 @@
+.chatai-app {
+  min-height: 100vh;
+  min-width: 80vw;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.search-result {
+  margin-top: 10px;
+  overflow: auto;
+}
+
+.surprise {
+  background-color: #4640de;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 600;
+  padding: 4px 12px;
+  margin: 0 0 2px 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.surprise:hover {
+  background-color: #3b36c1;
+}
+
+.input-chatai-container {
+  width: 85%;
+  border: solid 0.5px #cacaca;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 82, 0.15) 0 2px 4px;
+  overflow: hidden;
+
+  display: flex;
+}
+
+.input-chatai-container input {
+  border: none !important;
+  padding: 13px 14px;
+  font-size: 14px;
+  outline: none;
+  width: 100%;
+  font-weight: 600;
+}
+
+.input-chatai-container input::placeholder {
+  color: #000;
+  font-weight: 300;
+}
+
+.input-chatai-container button {
+  min-width: 10%;
+  border: none;
+  border-left: 1px solid #cacaca;
+  background-color: #fff;
+  color: #777;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.input-chatai-container button:active {
+  background-color: #cacaca;
+}
+
+.answer {
+  padding: 13px 14px;
+  border: solid 0.5px #cacaca;
+  background-color: #fff;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 6px;
+  width: 85%;
+}
+
+.chatitem-role {
+  background-color: #4640de;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 600;
+  padding: 4px 12px;
+  margin: 0 8px 2px 5px;
+  border: none;
+}
+
+.help-ai-loading-spinner {
+  margin-right: 240px;
+}

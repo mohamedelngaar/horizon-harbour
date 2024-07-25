@@ -1,0 +1,18 @@
+.custom-btn-primary-color {
+  background-color: #4640de !important;
+}
+
+.custom-btn-primary-color:hover {
+  background-color: #3c37b6 !important;
+  transform: translateY(-2px);
+  transition: 0.3s;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.custom-btn:hover {
+  background-color: #4640de;
+  color: white;
+  transform: translateY(-2px);
+  transition: 0.3s;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
